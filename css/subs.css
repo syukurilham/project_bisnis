@@ -1,0 +1,55 @@
+/* Reset dasar untuk menghilangkan margin dan padding default */
+body, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif; /* Font yang digunakan */
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    line-height: 1.6; /* Jarak antar baris */
+    padding: 20px; /* Padding di sekitar body */
+}
+
+/* Gaya untuk judul */
+h2 {
+    margin-bottom: 20px; /* Jarak bawah judul */
+    color: #2c3e50; /* Warna judul */
+}
+
+/* Gaya untuk formulir */
+form {
+    background: #fff; /* Warna latar belakang formulir */
+    padding: 20px; /* Padding di dalam formulir */
+    border-radius: 5px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Gaya untuk label */
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 10px; /* Jarak bawah label */
+}
+
+/* Gaya untuk input radio */
+input[type="radio"] {
+    margin-right: 10px; /* Jarak kanan untuk input radio */
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #3498db; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border default */
+    padding: 10px 15px; /* Padding dalam tombol */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    transition: background-color 0.3s; /* Transisi untuk efek hover */
+}
+
+/* Gaya untuk tombol saat hover */
+button:hover {
+    background-color: #2980b9; /* Warna latar belakang saat hover */
+}
