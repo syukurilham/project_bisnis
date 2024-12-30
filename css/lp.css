@@ -13,10 +13,14 @@ body {
 .banner-inner {
     text-align: center;
     margin-bottom: 20px;
+    border: 2px solid #3c6a36; /* Menambahkan border dengan warna hijau */
+    border-radius: 10px; /* Menambahkan sudut melengkung pada border */
+    padding: 20px; /* Menambahkan padding di dalam border */
+    background-color: white; /* Menambahkan latar belakang putih untuk kontras */
 }
 
-.banner-inner h1{
-    color:#3c6a36 ;
+.banner-inner h1 {
+    color: #3c6a36;
 }
 
 .judul {
