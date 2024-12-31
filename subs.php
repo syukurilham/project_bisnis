@@ -57,15 +57,46 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h2>Pilih Harga Langganan Anda</h2>
         <form method="POST" action="">
             <label>
-                <input type="radio" name="subscription_price" value="100000" required>
+                <input type="radio" name="subscription_price" value="100000" required onclick="toggleBenefits('monthly')">
                 Langganan Bulanan - Rp 100.000
-            </label><br>
+            </label>
+            <div id="monthly-benefits" class="benefits">
+                <ul>
+                    <li>Menghilangkan iklan</li>
+                    <li>Membuka resep limited/kolaborasi dengan chef-chef terkenal</li>
+                </ul>
+            </div>
+
             <label>
-                <input type="radio" name="subscription_price" value="1000000">
+                <input type="radio" name="subscription_price" value="1000000" onclick="toggleBenefits('yearly')">
                 Langganan Tahunan - Rp 1.000.000
-            </label><br>
+            </label>
+            <div id="yearly-benefits" class="benefits">
+                <ul>
+                    <li>Sama seperti bulanan, tetapi berlaku satu tahun</li>
+                </ul>
+            </div>
+
+            <br>
             <button type="submit">Pilih Langganan</button>
         </form>
+
+        <script>
+        function toggleBenefits(type) {
+            // Sembunyikan semua benefit
+            document.querySelectorAll('.benefits').forEach(el => {
+                el.classList.remove('visible');
+                el.style.maxHeight = null;
+            });
+
+            // Tampilkan benefit yang sesuai
+            const selected = document.getElementById(`${type}-benefits`);
+            if (selected) {
+                selected.classList.add('visible');
+                selected.style.maxHeight = selected.scrollHeight + "px"; // Atur tinggi sesuai konten
+            }
+        }
+        </script>
     </body>
     </html>
     <?php

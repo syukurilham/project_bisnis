@@ -21,6 +21,7 @@ h2 {
 
 /* Gaya untuk formulir */
 form {
+    font-size: 20px;
     background: #fff; /* Warna latar belakang formulir */
     padding: 20px; /* Padding di dalam formulir */
     border-radius: 5px; /* Sudut melengkung */
@@ -52,4 +53,17 @@ button {
 /* Gaya untuk tombol saat hover */
 button:hover {
     background-color: #2980b9; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk container benefit */
+.benefits {
+    display: none; /* Default tidak tampil */
+    overflow: hidden; /* Agar konten tidak meluber */
+    transition: max-height 0.3s ease; /* Efek transisi slide */
+    max-height: 0; /* Awal tinggi kontainer 0 */
+}
+
+.benefits.visible {
+    display: block; /* Tampilkan saat visible */
+    max-height: 200px; /* Tentukan tinggi maksimum */
 }
