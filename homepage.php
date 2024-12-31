@@ -265,7 +265,7 @@ $user = $result->fetch_assoc();
                     <div class="box-icon-ruby-icon linearicons-shovel"></div>
                   </div>
                   <div class="unit-body">
-                    <h4 class="box-icon-ruby-title"><a href="#">Subscription</a></h4>
+                    <h4 class="box-icon-ruby-title"><a href="subs.php">Subscription</a></h4>
                   </div>
                 </div>
               </article>
