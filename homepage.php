@@ -299,7 +299,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi goreng.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-1-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_goreng.html">Nasi Goreng</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_goreng.php">Nasi Goreng</a></h4>
                   </div>
                 </article>
               </div>
@@ -311,7 +311,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/mie ayam.png" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/grid-gallery-2-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="#">Mie Ayam</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_mie_ayam.php">Mie Ayam</a></h4>
                   </div>
                 </article>
               </div>
@@ -323,7 +323,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/Gado-Gado.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-3-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-3-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="#">Mandarin Oranges</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_gado-gado">Gado-Gado</a></h4>
                   </div>
                 </article>
               </div>
@@ -335,7 +335,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-4-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="#">Lemons</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_gudeg.php">Gudeg</a></h4>
                   </div>
                 </article>
               </div>
@@ -347,7 +347,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi kuning.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-5-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="#">Organic Food</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_kuning.php">nasi kuning</a></h4>
                   </div>
                 </article>
               </div>
