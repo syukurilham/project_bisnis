@@ -4,48 +4,18 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif; /* Gaya font untuk seluruh halaman */
-}
-.navbar {
-    display: flex; /* Menggunakan flexbox untuk layout */
-    justify-content: space-between; /* Menyebar item di dalam navbar */
-    align-items: center; /* Vertikal centering */
-    background-color: #74c365; /* Warna latar belakang navbar */
-    padding: 10px 20px; /* Jarak dalam navbar */
-    /* background: #74c365; */
-    scroll-behavior: smooth;
-}
-.navbar-brand {
-    color: white; /* Warna teks untuk nama website */
-    font-size: 1.5em; /* Ukuran font untuk nama website */
-    font-family: "Playwrite GB S", cursive;
-}
-.navbar-menu {
-    list-style: none; /* Menghapus simbol titik dari list */
-    display: flex; /* Mengatur menu sebagai flex container */
-}
-.navbar-brand {
-    color: white; /* Warna teks untuk nama website */
-    font-size: 1.5em; /* Ukuran font untuk nama website */
-}
-.navbar-menu li {
-    margin-left: 20px; /* Jarak antar item menu */
-}
-.navbar-menu a {
-    color: white; /* Warna teks untuk item menu */
-    text-decoration: none; /* Menghapus garis bawah dari tautan */
-    padding: 8px 12px; /* Jarak dalam tautan */
-    transition: background-color 0.3s; /* Efek transisi */
-}
-.navbar-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Warna latar belakang saat hover */
-    border-radius: 4px; /* Pojok membulat saat hover */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .pembayaran-container {
-    margin: 35px 30px 10px 450px;
+    margin: 35px auto;
     max-width: 600px;
-    /* margin: auto; */
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -67,45 +37,38 @@ body {
 .produk-detail p {
     font-size: 1.2em;
     color: #74c365;
+    margin: 10px 0;
 }
 
-.form-group {
+.produk-detail ul {
+    list-style: disc;
+    margin-left: 20px;
     margin-bottom: 15px;
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+.produk-detail li {
+    margin-bottom: 8px;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+@media (max-width: 768px) {
+    .pembayaran-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .produk-detail h2 {
+        font-size: 1.2em;
+    }
+
+    .produk-detail p {
+        font-size: 1em;
+    }
 }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 1.2em;
-    color: white;
-    background-color: #74c365;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button a{
-    color: white;
-    text-decoration: none;
-
-}
-
-button:hover {
-    background-color: #5a9a50;
+@media (max-width: 480px) {
+    .pembayaran-container {
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
 }
