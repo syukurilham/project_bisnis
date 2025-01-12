@@ -9,30 +9,65 @@
 <body>
     <div class="pembayaran-container">
         <div class="produk-detail">
-            <img src="images/menu/mie ayam.png" alt="mie ayam">
-            <h2>Mie Ayam</h2>
+            <img src="images/menu/nasi goreng.jpg" alt="mie ayam">
+            <h2>Nasi Goreng Jawa</h2>
             <p>Bahan-bahan yang diperlukan :</p> <br>
                 <li>
-                    Mie telur, sawi hijau, dan ayam cincang
+                3 piring nasi dingin
                 </li> <br>
-                <p>bumbu</p> <br>
                 <li>
-                    kecap manis, kecap asin, bawang putih, jahe, lada dan kuah kaldu ayam
+                1 butir telur
+                </li> <br>
+                <li>
+                1 sdm gula
+                </li> <br>
+                <li>
+                2 sdm minyak wijen
+                </li> <br>
+                <li>
+                1 sdt kaldu jamur
+                </li> <br>
+                <li>
+                4 butir bawang putih
+                </li> <br>
+                <li>
+                6 butir bawang merah
+                </li> <br>
+                <li>
+                2 butir kemiri
+                </li> <br>
+                <li>
+                2 sdm garam
+                </li> <br>
+                <li>
+                1 sdm merica butir (bisa pakai lada halus)
+                </li> <br>
+                <li>
+                Ebi secukupnya, rendam supaya lunak
+                </li> <br>
+                <li>
+                Kecap manis secukupnya
+                </li> <br>
+                <li>
+                Minyak secukupnya untuk menumis
                 </li> <br>
 
             <h2>Cara Pembuatan</h2>
             <ul>
                 <li>
-                    tumis bawang putih, jahe, dan ayam cincang. tambahkan kecap manis, asin, dan sedikit air.
+                Haluskan bawang, ebi, kemiri, dan merica. Lalu tumis dengan sedikit minyak.
                 </li>
                 <li>
-                    rebus mie dan sawi hingga matang
+                Setelah bumbu matang, masukkan bakso, telur, aduk dan tumis sebentar. 
                 </li>
                 <li>
-                    sajikan dengan tooping ayam, sawi, dan kuah kaldu ayam
+                Masukkan nasi, gula, minyak wijen, kecap manis, aduk rata lagi.
                 </li>
                 <li>
-                    selamat menikmati mie ayam selagi hangat
+                jika dirasa sudah matang angkat. dan sajikan dengan kerupuk,bawang goreng atau lalapan
+                </li>
+                <li>
+                selamat menikmati selagi masih hangat
                 </li>
             </ul>
         </div>

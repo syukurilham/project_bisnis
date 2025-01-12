@@ -334,7 +334,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-4-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_gudeg.php">Gudeg</a></h4>
                   </div>
                 </article>
@@ -346,7 +346,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi kuning.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-5-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi kuning.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_nasi_kuning.php">nasi kuning</a></h4>
                   </div>
                 </article>
@@ -356,10 +356,10 @@ $user = $result->fetch_assoc();
               <div class="oh-desktop">
                 <!-- Thumbnail Classic-->
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInDown" data-wow-delay=".1s">
-                  <div class="thumbnail-mary-figure"><img src="images/menu/salad.jpg" alt="" width="370" height="303"/>
+                  <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam1.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-6-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="#">Salad</a></h4>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam1.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303"/></a>
+                    <h4 class="thumbnail-mary-title"><a href="detail_soto_ayam.php">Soto Ayam</a></h4>
                   </div>
                 </article>
               </div>
@@ -472,7 +472,7 @@ $user = $result->fetch_assoc();
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="129" height="120"/>
                           </div>
                           <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-9-800x1200.jpg" data-lightgallery="item"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/></a>
                           </div>
@@ -481,7 +481,7 @@ $user = $result->fetch_assoc();
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/menu/salad.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam.jpg" alt="" width="129" height="120"/>
                           </div>
                           <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-10-1200x800.jpg" data-lightgallery="item"><img src="images/gallery-image-4-129x120.jpg" alt="" width="129" height="120"/></a>
                           </div>
