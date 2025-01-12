@@ -5,51 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>datail mie ayam</title>
     <link rel="stylesheet" href="css/detail.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="pembayaran-container">
+        <div class="back-button">
+            <a href="homepage.php">
+                <i class="fas fa-arrow-left"></i> Kembali
+            </a>
+        </div>
         <div class="produk-detail">
             <img src="images/menu/gudeg.jpg" alt="mie ayam">
             <h2>Gudeg</h2>
             <p>Bahan-bahan yang diperlukan :</p> <br>
                 <li>
-                1 kg nangka muda
-
-
-
-
-
-
-
-
-
-
-
-
+                1 kg nangka muda.
                 </li> <br>
                 <li>
-                1 liter santan dan 500 ml Air
+                1 liter santan dan 500 ml Air.
                 </li> <br>
                 <li>
                 5 lbr daun salam, 1 ruas lengkuas, 
                 </li> <br>
                 <li>
-                2 sdm minyak goreng
+                2 sdm minyak goreng.
                 </li> <br>
                 <li>
-                5 siung bawang putih dan 15 siung bawang merah
+                5 siung bawang putih dan 15 siung bawang merah.
                 </li> <br>
                 <li>
-                1 sdm ketumbar halus
+                1 sdm ketumbar halus.
                 </li> <br>
                 <li>
-                5 butir kemiri
+                5 butir kemiri.
                 </li> <br>
                 <li>
-                250 gram gula merah
+                250 gram gula merah.
                 </li> <br>
                 <li>
-                1 sdm garam
+                1 sdm garam.
                 </li> <br>
 
             <h2>Cara Pembuatan</h2>
@@ -79,7 +73,7 @@
                 Setelah warna coklat karamel. Matikan kompor. Dinginkan.
                 </li>
                 <li>
-                Hidangkan dengan krecek, dan tahu tempe bacem, telur pindang
+                Hidangkan dengan krecek, dan tahu tempe bacem, telur pindang.
                 </li>
             </ul>
         </div>

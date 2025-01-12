@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>datail mie ayam</title>
     <link rel="stylesheet" href="css/detail.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="pembayaran-container">
+        <div class="back-button">
+            <a href="homepage.php">
+                <i class="fas fa-arrow-left"></i> Kembali
+            </a>
+        </div>
         <div class="produk-detail">
             <img src="images/menu/nasi goreng.jpg" alt="mie ayam">
             <h2>Nasi Goreng Jawa</h2>
