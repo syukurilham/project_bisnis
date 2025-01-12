@@ -385,7 +385,7 @@ $user = $result->fetch_assoc();
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
               <!-- Team Classic-->
-              <article class="team-classic"><a class="team-classic-figure" href="#"><img src="images/team-2-370x406.jpg" alt="" width="370" height="406"/></a>
+              <article class="team-classic"><a class="team-classic-figure" href="#"><img src="images/team/ajen.png" alt="" width="370" height="406"/></a>
                 <div class="team-classic-caption">
                   <h5 class="team-classic-name"><a href="#">Miftachus Zien</a></h5>
                   <p class="team-classic-status">Marketing</p>
