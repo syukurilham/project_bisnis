@@ -9,6 +9,11 @@
 </head>
 <body>
     <div class="pembayaran-container">
+        <div class="back-button">
+            <a href="homepage.php">
+                <i class="fas fa-arrow-left"></i> Kembali
+            </a>
+        </div>
         <div class="produk-detail">
             <img src="images/menu/Gado-Gado.jpg" alt="gado-gado">
             <h2>Gado-gado</h2>
