@@ -202,7 +202,7 @@ $user = $result->fetch_assoc();
                     <div class="slider-modern-box">
                       <h1 class="slider-modern-title"><span data-caption-animate="slideInDown" data-caption-delay="0">makanan sehat</span></h1>
                       <p data-caption-animate="fadeInRight" data-caption-delay="400">kami ada untuk kalian yang ingin mencari resep baru</p>
-                      <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">menu</a></div>
+                      <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="#menu" data-caption-animate="slideInLeft" data-caption-delay="400">menu</a></div>
                     </div>
                   </div>
                 </div>
@@ -217,7 +217,7 @@ $user = $result->fetch_assoc();
                     <div class="slider-modern-box">
                       <h1 class="slider-modern-title"><span data-caption-animate="slideInLeft" data-caption-delay="0">bosan dengan resep yang itu itu aja?</span></h1>
                       <p data-caption-animate="fadeInRight" data-caption-delay="400">kami mencarikan resep yang anda inginkan dan menyampaikan kepada anda dengan mudah</p>
-                      <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">menu</a></div>
+                      <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="#menu" data-caption-animate="slideInLeft" data-caption-delay="400">menu</a></div>
                     </div>
                   </div>
                 </div>
