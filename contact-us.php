@@ -10,7 +10,7 @@
 
    // Ambil data pengguna
 $user_id = $_SESSION['user_id'];
-$query = "SELECT nama_user, email_user FROM user WHERE id = ?";
+$query = "SELECT nama_user, email_user FROM user WHERE user_id = ?";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();

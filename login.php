@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Memverifikasi password
         if (password_verify($password, $user['password_user'])) {
             // Password benar, redirect ke index.html
-            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['user_id'] = $user['user_id'];
             header("Location: homepage.php");
             exit();
         } else {

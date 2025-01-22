@@ -1,0 +1,107 @@
+/* Container untuk halaman bookmark */
+.bookmark-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Styling untuk tombol kembali */
+.back-button {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.back-button a i {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.back-button a:hover {
+    color: #74c365; 
+}
+
+.back-button a:hover i {
+    color: #74c365; 
+}
+
+
+/* Styling untuk judul halaman */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk daftar bookmark */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling untuk nama produk yang disimpan */
+.product-info {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+}
+
+.product-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-info a:hover {
+    color: #007bff;
+}
+
+/* Styling untuk waktu ditambahkan */
+.bookmark-time {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Styling untuk ikon hapus bookmark */
+.remove-bookmark {
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 1.2em;
+}
+
+.remove-bookmark:hover {
+    color: #c82333;
+}
+
+/* Pesan ketika tidak ada bookmark */
+.bookmark-notice {
+    text-align: center;
+    font-size: 1.2em;
+    color: #888;
+}
+

@@ -10,7 +10,7 @@
 
    // Ambil data pengguna
 $user_id = $_SESSION['user_id'];
-$query = "SELECT nama_user, email_user FROM user WHERE id = ?";
+$query = "SELECT nama_user, email_user FROM user WHERE user_id = ?";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -171,32 +171,31 @@ $user = $result->fetch_assoc();
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-4-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                    <p>Di My Dream Food, misi kami adalah menginspirasi dan memberdayakan semua orang untuk menciptakan hidangan lezat yang membawa kebahagiaan dan kehangatan ke dalam hidup mereka. Kami percaya bahwa memasak bukan hanya tentang menyiapkan makanan, tetapi juga tentang menciptakan pengalaman berkesan dan menyuburkan jiwa.</p>
                     <div class="text-center text-sm-left offset-top-30">
                       <ul class="row-16 list-0 list-custom list-marked list-marked-sm list-marked-secondary">
-                        <li>Eiusmod tempor</li>
-                        <li>Dolore magna</li>
-                        <li>Minim veniam</li>
-                        <li>Nostrud exercitation</li>
-                        <li>Laboris nisi</li>
-                        <li>Officia deserunt</li>
+                        <li>Menyediakan Resep Unik</li>
+                        <li>Mendorong Pola Makan Sehat</li>
+                        <li>Memberdayakan Koki Rumahan</li>
+                        <li>Membangun Komunitas</li>
+                        <li>Inovasi Berkelanjutan</li>
                       </ul>
                     </div>
-                    <div class="group-md group-middle"><a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Read more</a><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
+                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
                   </div>
                   <div class="tab-pane fade" id="tabs-4-2">
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Di My Dream Food, nilai-nilai kami adalah dasar dari segala yang kami lakukan. Nilai-nilai ini membimbing tindakan kami dan membentuk komunitas kami. Nilai-nilai inti kami adalah:</p>
                     <div class="text-center text-sm-left offset-top-30">
                       <ul class="row-16 list-0 list-custom list-marked list-marked-sm list-marked-secondary">
-                        <li>Nostrud exercitation</li>
-                        <li>Laboris nisi</li>
-                        <li>Officia deserunt</li>
-                        <li>Eiusmod tempor</li>
-                        <li>Dolore magna</li>
-                        <li>Minim veniam</li>
+                        <li>Gairah Terhadap Memasak</li>
+                        <li>Bahan Berkualitas</li>
+                        <li>Kreativitas dan Inovasi</li>
+                        <li>Inklusivitas</li>
+                        <li>Keberlanjutan</li>
+                        <li>Pendidikan dan Pemberdayaan</li>
                       </ul>
                     </div>
-                    <div class="group-md group-middle"><a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Read more</a><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
+                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
                   </div>
                   <div class="tab-pane fade" id="tabs-4-3">
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -210,7 +209,7 @@ $user = $result->fetch_assoc();
                         <li>Officia deserunt</li>
                       </ul>
                     </div>
-                    <div class="group-md group-middle"><a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Read more</a><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
+                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
                   </div>
                 </div>
               </div>
@@ -220,17 +219,17 @@ $user = $result->fetch_assoc();
       </section>
 
       <!-- What people say-->
-      <section class="section context-dark">
+      <!-- <section class="section context-dark">
         <div class="parallax-container" data-parallax-img="images/bg-parallax-2.jpg">
           <div class="parallax-content section-md bg-overlay-2-21">
             <div class="container">
               <div class="oh">
                 <h2 class="wow slideInUp" data-wow-delay="0s">What People Say</h2>
-              </div>
+              </div> -->
               <!-- Owl Carousel-->
-              <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
+              <!-- <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true"> -->
                 <!-- Quote Lisa-->
-                <article class="quote-lisa">
+                <!-- <article class="quote-lisa">
                   <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-16-100x100.jpg" alt="" width="100" height="100"/></a>
                     <div class="quote-lisa-text">
                       <p class="q">I picked up a head of your lettuce at a local grocery store today. What an amazing and beautiful lettuce it is! I’ve never seen another so full and green and tempting.</p>
@@ -238,9 +237,9 @@ $user = $result->fetch_assoc();
                     <h5 class="quote-lisa-cite"><a href="#">Samantha Peterson</a></h5>
                     <p class="quote-lisa-status">Regular Client</p>
                   </div>
-                </article>
+                </article> -->
                 <!-- Quote Lisa-->
-                <article class="quote-lisa">
+                <!-- <article class="quote-lisa">
                   <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-17-100x100.jpg" alt="" width="100" height="100"/></a>
                     <div class="quote-lisa-text">
                       <p class="q">I wanted to tell you how amazing it was to see the farm and how much we love the food. Your apples and carrots are just wonderful and their taste is great.</p>
@@ -248,9 +247,9 @@ $user = $result->fetch_assoc();
                     <h5 class="quote-lisa-cite"><a href="#">John Wilson</a></h5>
                     <p class="quote-lisa-status">Regular Client</p>
                   </div>
-                </article>
+                </article> -->
                 <!-- Quote Lisa-->
-                <article class="quote-lisa">
+                <!-- <article class="quote-lisa">
                   <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/user-18-100x100.jpg" alt="" width="100" height="100"/></a>
                     <div class="quote-lisa-text">
                       <p class="q">The food from your farm is wonderful. So many nights when we sit down to dinner we can say everything on this plate is locally grown and delicious. Thank you!</p>
@@ -263,7 +262,7 @@ $user = $result->fetch_assoc();
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="section section-md section-last bg-gray-100">
         <div class="container">
           <div class="oh">

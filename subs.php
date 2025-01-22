@@ -12,7 +12,7 @@ if (!isset($_SESSION['user_id'])) {
 $user_id = $_SESSION['user_id'];
 
 // Ambil status langganan pengguna dari database
-$query = "SELECT is_subscribed FROM user WHERE id = ?";
+$query = "SELECT is_subscribed FROM user WHERE user_id = ?";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <form method="POST" action="">
             <label>
                 <input type="radio" name="subscription_price" value="100000" required onclick="toggleBenefits('monthly')">
-                Langganan Bulanan - Rp 100.000
+                Langganan Bulanan - Rp 70.000
             </label>
             <div id="monthly-benefits" class="benefits">
                 <ul>

@@ -10,7 +10,7 @@
 
    // Ambil data pengguna
 $user_id = $_SESSION['user_id'];
-$query = "SELECT nama_user, email_user FROM user WHERE id = ?";
+$query = "SELECT nama_user, email_user FROM user WHERE user_id = ?";
 $stmt = $conn->prepare($query);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
@@ -146,7 +146,7 @@ $user = $result->fetch_assoc();
                     </div>
                   </div>
                   <div class="rd-navbar-project-modern-header">
-                  <h5 class="rd-navbar-project-modern-title"><?php echo htmlspecialchars($user['email_user']); ?></h5>
+                    <h5 class="rd-navbar-project-modern-title"><?php echo htmlspecialchars($user['email_user']); ?></h5>
                     <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
                       <div class="project-close"><span></span><span></span></div>
                     </div>
@@ -156,6 +156,11 @@ $user = $result->fetch_assoc();
                       <p>kami membuat website ini hanya untuk tugas perkuliahan</p>
                       <ul class="rd-navbar-modern-contacts">
                         <li>
+                          <li>
+                            <div class="unit unit-spacing-sm">
+                             <a href="bookmark.php">bookmark</a></button>
+                            </div>
+                          </li>
                           <div class="unit unit-spacing-sm">
                            <a href="update.php">Update akun</a>
                           </div>
@@ -299,7 +304,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi goreng.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-1-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_goreng.php">Nasi Goreng</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_goreng.php?id_produk=1">Nasi Goreng</a></h4>
                   </div>
                 </article>
               </div>
@@ -311,7 +316,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/mie ayam.png" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/grid-gallery-2-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_mie_ayam.php">Mie Ayam</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_mie_ayam.php?id_produk=2">Mie Ayam</a></h4>
                   </div>
                 </article>
               </div>
@@ -323,7 +328,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/Gado-Gado.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-3-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-3-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_Gado-Gado.php">Gado-Gado</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_Gado-Gado.php?id_produk=3">Gado-Gado</a></h4>
                   </div>
                 </article>
               </div>
@@ -335,7 +340,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_gudeg.php">Gudeg</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_gudeg.php?id_produk=4">Gudeg</a></h4>
                   </div>
                 </article>
               </div>
@@ -347,7 +352,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi kuning.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi kuning.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_kuning.php">nasi kuning</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_nasi_kuning.php?id_produk=5">nasi kuning</a></h4>
                   </div>
                 </article>
               </div>
@@ -359,7 +364,7 @@ $user = $result->fetch_assoc();
                   <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam1.jpg" alt="" width="370" height="303"/>
                   </div>
                   <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam1.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303"/></a>
-                    <h4 class="thumbnail-mary-title"><a href="detail_soto_ayam.php">Soto Ayam</a></h4>
+                    <h4 class="thumbnail-mary-title"><a href="detail_soto_ayam.php?id_produk=6">Soto Ayam</a></h4>
                   </div>
                 </article>
               </div>
