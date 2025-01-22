@@ -87,7 +87,7 @@ $user = $result->fetch_assoc();
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">About Us</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Subscription</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="subs.php">Subscription</a>
                       </li>
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
                       </li>
