@@ -57,12 +57,12 @@ $user = $result->fetch_assoc();
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="homepage.php"><p style="font-size: 20px;">My DreamFood</p></a></div>
+                  <div class="rd-navbar-brand"><a class="brand" href="homepage.php"><p style="font-size: 30px;">My DreamFood</p></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <!-- RD Navbar Search-->
-                    <div class="rd-navbar-search">
+                    <!-- <div class="rd-navbar-search">
                       <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
                       <form class="rd-search" action="#">
                         <div class="form-wrap">
@@ -71,7 +71,7 @@ $user = $result->fetch_assoc();
                           <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
                         </div>
                       </form>
-                    </div>
+                    </div> -->
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item"><a class="rd-nav-link" href="homepage.php">Home</a>
@@ -120,7 +120,12 @@ $user = $result->fetch_assoc();
                         </li>
                         <li>
                           <div class="unit unit-spacing-sm">
-                           <a href="delete_akun.php">Delete akun</a></button>
+                            <a href="logout.php">Log Out</a></button>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                           <a href="delete.php">Delete akun</a></button>
                           </div>
                         </li>
                       </ul>

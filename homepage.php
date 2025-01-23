@@ -26,7 +26,7 @@ $user = $result->fetch_assoc();
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/logo bisnis.jpg" type="image/x-icon">
+    <link rel="icon" href="images/logo fix.jpg" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -57,7 +57,7 @@ $user = $result->fetch_assoc();
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="homepage.php"><P style="font-size: larger;">My DreamFood</P></a></div>
+                  <div class="rd-navbar-brand"><a class="brand" href="homepage.php"><P style="font-size: 30px;">My DreamFood</P></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -109,7 +109,7 @@ $user = $result->fetch_assoc();
                       </div> -->
                     <!-- </div><a class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping198" href="#"><span>2</span></a> -->
                     <!-- RD Navbar Search-->
-                    <div class="rd-navbar-search">
+                    <!-- <div class="rd-navbar-search">
                       <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
                       <form class="rd-search" action="#">
                         <div class="form-wrap">
@@ -118,7 +118,7 @@ $user = $result->fetch_assoc();
                           <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
                         </div>
                       </form>
-                    </div>
+                    </div> -->
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="homepage.php">Home</a>
@@ -156,11 +156,11 @@ $user = $result->fetch_assoc();
                       <p>kami membuat website ini hanya untuk tugas perkuliahan</p>
                       <ul class="rd-navbar-modern-contacts">
                         <li>
-                          <li>
-                            <div class="unit unit-spacing-sm">
-                             <a href="bookmark.php">bookmark</a></button>
-                            </div>
-                          </li>
+                          <div class="unit unit-spacing-sm">
+                            <a href="bookmark.php">bookmark</a></button>
+                          </div>
+                        </li>
+                        <li>
                           <div class="unit unit-spacing-sm">
                            <a href="update.php">Update akun</a>
                           </div>
@@ -172,7 +172,12 @@ $user = $result->fetch_assoc();
                         </li>
                         <li>
                           <div class="unit unit-spacing-sm">
-                           <a href="delete_akun.php">Delete akun</a></button>
+                            <a href="logout.php">Log Out</a></button>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                           <a href="delete.php">Delete akun</a></button>
                           </div>
                         </li>
                       </ul>
@@ -255,7 +260,7 @@ $user = $result->fetch_assoc();
               <article class="box-icon-ruby">
                 <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                   <div class="unit-left">
-                    <div class="box-icon-ruby-icon linearicons-leaf"></div>
+                    <div class="box-icon-ruby-icon linearicons-dinner"></div>
                   </div>
                   <div class="unit-body">
                     <h4 class="box-icon-ruby-title"><a href="#menu">Menu Kami</a></h4>
@@ -267,7 +272,7 @@ $user = $result->fetch_assoc();
               <article class="box-icon-ruby">
                 <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                   <div class="unit-left">
-                    <div class="box-icon-ruby-icon linearicons-shovel"></div>
+                    <div class="box-icon-ruby-icon linearicons-lock"></div>
                   </div>
                   <div class="unit-body">
                     <h4 class="box-icon-ruby-title"><a href="subs.php">Subscription</a></h4>
@@ -279,7 +284,7 @@ $user = $result->fetch_assoc();
               <article class="box-icon-ruby">
                 <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                   <div class="unit-left">
-                    <div class="box-icon-ruby-icon linearicons-sun"></div>
+                    <div class="box-icon-ruby-icon linearicons-users"></div>
                   </div>
                   <div class="unit-body">
                     <h4 class="box-icon-ruby-title"><a href="#team">Dedicated Team</a></h4>
