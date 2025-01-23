@@ -28,20 +28,46 @@ form {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
 }
 
-/* Gaya untuk label */
-label {
-    display: block; /* Menampilkan label sebagai blok */
-    margin-bottom: 10px; /* Jarak bawah label */
+/* Gaya untuk kartu langganan */
+.subscription-card {
+    background: #3498db; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
 
-/* Gaya untuk input radio */
-input[type="radio"] {
-    margin-right: 10px; /* Jarak kanan untuk input radio */
+.subscription-card:hover {
+    background-color: #2980b9;
+}
+
+/* Gaya untuk tombol kembali */
+.back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #333; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn i {
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+}
+
+/* Gaya untuk tombol kembali saat hover */
+.back-btn:hover {
+    background-color: #74c365; /* Warna latar belakang saat hover */
 }
 
 /* Gaya untuk tombol */
 button {
-    background-color: #3498db; /* Warna latar belakang tombol */
+    background-color: #333; /* Warna latar belakang tombol */
     color: white; /* Warna teks tombol */
     border: none; /* Menghilangkan border default */
     padding: 10px 15px; /* Padding dalam tombol */
@@ -52,7 +78,7 @@ button {
 
 /* Gaya untuk tombol saat hover */
 button:hover {
-    background-color: #2980b9; /* Warna latar belakang saat hover */
+    background-color: #74c365; /* Warna latar belakang saat hover */
 }
 
 /* Gaya untuk container benefit */

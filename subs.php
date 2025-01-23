@@ -52,14 +52,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pilih Langganan</title>
         <link rel="stylesheet" href="css/subs.css">
+        <!-- Link ke Font Awesome untuk ikon -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     </head>
     <body>
         <h2>Pilih Harga Langganan Anda</h2>
+        
+        <!-- Tombol kembali ke homepage -->
+        <a href="homepage.php" class="back-btn"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+
         <form method="POST" action="">
-            <label>
-                <input type="radio" name="subscription_price" value="100000" required onclick="toggleBenefits('monthly')">
-                Langganan Bulanan - Rp 70.000
-            </label>
+            <!-- Cart untuk Langganan Bulanan -->
+            <div class="subscription-card" onclick="toggleBenefits('monthly')">
+                <h3>Langganan Bulanan - Rp 70.000</h3>
+                <p>Pilih Langganan Bulanan</p>
+            </div>
             <div id="monthly-benefits" class="benefits">
                 <ul>
                     <li>Menghilangkan iklan</li>
@@ -67,10 +74,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </ul>
             </div>
 
-            <label>
-                <input type="radio" name="subscription_price" value="1000000" onclick="toggleBenefits('yearly')">
-                Langganan Tahunan - Rp 1.000.000
-            </label>
+            <!-- Cart untuk Langganan Tahunan -->
+            <div class="subscription-card" onclick="toggleBenefits('yearly')">
+                <h3>Langganan Tahunan - Rp 1.000.000</h3>
+                <p>Pilih Langganan Tahunan</p>
+            </div>
             <div id="yearly-benefits" class="benefits">
                 <ul>
                     <li>Sama seperti bulanan, tetapi berlaku satu tahun</li>
@@ -78,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 
             <br>
-            <button type="submit">Pilih Langganan</button>
+            <button type="submit" name="subscription_price" value="100000">Pilih Langganan</button>
         </form>
 
         <script>
