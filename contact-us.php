@@ -272,7 +272,7 @@ $user = $result->fetch_assoc();
                         <article class="thumbnail thumbnail-mary">
                           <div class="thumbnail-mary-figure"><img src="images/menu/nasi goreng.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-7-800x1200.jpg" data-lightgallery="item"><img src="images/gallery-image-1-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi goreng.jpg" data-lightgallery="item"><img src="images/menu/nasi goreng.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
@@ -281,25 +281,25 @@ $user = $result->fetch_assoc();
                         <article class="thumbnail thumbnail-mary">
                           <div class="thumbnail-mary-figure"><img src="images/menu/mie ayam.png" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-8-1200x800.jpg" data-lightgallery="item"><img src="images/gallery-image-2-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/menu/mie ayam.png" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-9-800x1200.jpg" data-lightgallery="item"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/menu/gudeg.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/menu/salad.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam1.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-10-1200x800.jpg" data-lightgallery="item"><img src="images/gallery-image-4-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam.jpg" data-lightgallery="item"><img src="images/menu/soto ayam.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
@@ -314,9 +314,8 @@ $user = $result->fetch_assoc();
           <div class="container">
             <!-- Rights-->
             <div class="group-sm group-sm-justify">
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Herber</span>. All rights reserved
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> All rights reserved
               </p>
-              <p class="rights">Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com/">Templatemonster</a></p>
             </div>
           </div>
         </div>

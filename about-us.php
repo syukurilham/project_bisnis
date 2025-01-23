@@ -78,7 +78,7 @@ $user = $result->fetch_assoc();
                       </li>
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="about-us.php">About Us</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Subscription</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="subs.php">Subscription</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.php">Contact Us</a>
                       </li>
@@ -143,13 +143,13 @@ $user = $result->fetch_assoc();
       <section class="breadcrumbs-custom-inset">
         <div class="breadcrumbs-custom context-dark bg-overlay-46">
           <div class="container">
-            <h2 class="breadcrumbs-custom-title">About Our Farm</h2>
+            <h2 class="breadcrumbs-custom-title">About Our website</h2>
             <ul class="breadcrumbs-custom-path">
               <li><a href="homepage.php">Home</a></li>
               <li class="active">About Us</li>
             </ul>
           </div>
-          <div class="box-position" style="background-image: url(images/bg-breadcrumbs.jpg);"></div>
+          <div class="box-position" style="background-image: url(images/banner/banner1.jpg);"></div>
         </div>
       </section>
       <!-- Why choose us-->
@@ -195,7 +195,7 @@ $user = $result->fetch_assoc();
                         <li>Pendidikan dan Pemberdayaan</li>
                       </ul>
                     </div>
-                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
+                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.php">Contact us</a></div>
                   </div>
                   <div class="tab-pane fade" id="tabs-4-3">
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -209,7 +209,7 @@ $user = $result->fetch_assoc();
                         <li>Officia deserunt</li>
                       </ul>
                     </div>
-                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contact us</a></div>
+                    <div class="group-md group-middle"><a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.php">Contact us</a></div>
                   </div>
                 </div>
               </div>
@@ -323,7 +323,7 @@ $user = $result->fetch_assoc();
                         <article class="thumbnail thumbnail-mary">
                           <div class="thumbnail-mary-figure"><img src="images/menu/nasi goreng.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-7-800x1200.jpg" data-lightgallery="item"><img src="images/gallery-image-1-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi goreng.jpg" data-lightgallery="item"><img src="images/menu/nasi goreng.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
@@ -332,25 +332,25 @@ $user = $result->fetch_assoc();
                         <article class="thumbnail thumbnail-mary">
                           <div class="thumbnail-mary-figure"><img src="images/menu/mie ayam.png" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-8-1200x800.jpg" data-lightgallery="item"><img src="images/gallery-image-2-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/menu/mie ayam.png " alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-9-800x1200.jpg" data-lightgallery="item"><img src="images/gallery-image-3-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/menu/gudeg.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
                       <div class="col-6 col-sm-3 col-lg-6">
                         <!-- Thumbnail Classic-->
                         <article class="thumbnail thumbnail-mary">
-                          <div class="thumbnail-mary-figure"><img src="images/menu/salad.jpg" alt="" width="129" height="120"/>
+                          <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam1.jpg" alt="" width="129" height="120"/>
                           </div>
-                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-10-1200x800.jpg" data-lightgallery="item"><img src="images/gallery-image-4-129x120.jpg" alt="" width="129" height="120"/></a>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam.jpg" data-lightgallery="item"><img src="images/menu/soto ayam.jpg" alt="" width="129" height="120"/></a>
                           </div>
                         </article>
                       </div>
@@ -365,9 +365,8 @@ $user = $result->fetch_assoc();
           <div class="container">
             <!-- Rights-->
             <div class="group-sm group-sm-justify">
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Herber</span>. All rights reserved
-              </p>
-              <p class="rights">Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com/">Templatemonster</a></p>
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> All rights reserved
+            </p>
             </div>
           </div>
         </div>
