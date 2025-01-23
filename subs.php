@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <!-- Cart untuk Langganan Tahunan -->
             <div class="subscription-card" onclick="toggleBenefits('yearly')">
-                <h3>Langganan Tahunan - Rp 1.000.000</h3>
+                <h3>Langganan Tahunan - Rp 756.000</h3>
                 <p>Pilih Langganan Tahunan</p>
             </div>
             <div id="yearly-benefits" class="benefits">
