@@ -153,7 +153,6 @@ $user = $result->fetch_assoc();
                   </div>
                   <div class="rd-navbar-project-content rd-navbar-modern-project-content">
                     <div>
-                      <p>kami membuat website ini hanya untuk tugas perkuliahan</p>
                       <ul class="rd-navbar-modern-contacts">
                         <li>
                           <div class="unit unit-spacing-sm">
@@ -308,7 +307,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi goreng.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-1-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi goreng.jpg" data-lightgallery="item"><img src="images/menu/nasi goreng.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_nasi_goreng.php?id_produk=1">Nasi Goreng</a></h4>
                   </div>
                 </article>
@@ -320,7 +319,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/mie ayam.png" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/grid-gallery-2-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/mie ayam.png" data-lightgallery="item"><img src="images/menu/mie ayam.png" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_mie_ayam.php?id_produk=2">Mie Ayam</a></h4>
                   </div>
                 </article>
@@ -332,7 +331,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInRight" data-wow-delay=".0s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/Gado-Gado.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-3-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-3-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/Gado-Gado.jpg" data-lightgallery="item"><img src="images/menu/Gado-Gado.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_Gado-Gado.php?id_produk=3">Gado-Gado</a></h4>
                   </div>
                 </article>
@@ -344,7 +343,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/gudeg.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/gudeg.jpg" data-lightgallery="item"><img src="images/menu/gudeg.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_gudeg.php?id_produk=4">Gudeg</a></h4>
                   </div>
                 </article>
@@ -356,7 +355,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/nasi kuning.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi kuning.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/nasi kuning.jpg" data-lightgallery="item"><img src="images/menu/nasi kuning.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_nasi_kuning.php?id_produk=5">nasi kuning</a></h4>
                   </div>
                 </article>
@@ -368,7 +367,7 @@ $user = $result->fetch_assoc();
                 <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInDown" data-wow-delay=".1s">
                   <div class="thumbnail-mary-figure"><img src="images/menu/soto ayam1.jpg" alt="" width="370" height="303"/>
                   </div>
-                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam1.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303"/></a>
+                  <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/menu/soto ayam.jpg" data-lightgallery="item"><img src="images/menu/soto ayam.jpg" alt="" width="370" height="303"/></a>
                     <h4 class="thumbnail-mary-title"><a href="detail_soto_ayam.php?id_produk=6">Soto Ayam</a></h4>
                   </div>
                 </article>

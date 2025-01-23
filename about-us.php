@@ -106,7 +106,6 @@ $user = $result->fetch_assoc();
                   </div>
                   <div class="rd-navbar-project-content rd-navbar-modern-project-content">
                     <div>
-                      <p>kami membuat website ini hanya untuk tugas perkuliahan</p>
                       <ul class="rd-navbar-modern-contacts">
                         <li>
                           <div class="unit unit-spacing-sm">
